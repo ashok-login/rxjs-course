@@ -11,6 +11,9 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    document.addEventListener('click', evt => {
+      console.log(evt)
+    });
   }
 
 }
